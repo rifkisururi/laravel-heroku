@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
+use Laravel\Lumen\Routing\UrlGenerator;
 
 class AppServiceProvider extends ServiceProvider
 {
